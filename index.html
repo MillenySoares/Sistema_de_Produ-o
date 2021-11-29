@@ -20,49 +20,45 @@
   <body>
 
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-lg-7 col-md-7 bg-fundo position-relative">
-                <div class="position-absolute">
-                    <img class="logo-img" width="150px" height="50px" src="imagem/logo.png" />
-                </div>
-                <img class="imagem-login" width="700px" height="500px" src="imagem/personagens.png"/>
+      <div class="row">
+        <div class="col-12 col-lg-7 col-md-7 bg-fundo position-relative">
+            <div class="position-absolute">
+                <img class="logo-img" width="150px" height="50px" src="imagem/logo.png" />
             </div>
-            <div class="col-12 col-lg-5 col-md-5">
-              <p class="titulo-login">
-                BEM VINDO A <br> MS VISUAL!
-              </p>
-              <div class="row">
-                <div class="col-10 col-lg-7 col-md-7 div-input-um">
-                  <label for="formGroupExampleInput" class="form-label font-input">SEU CPF</label>
-                  <input type="text" class="form-control" id="formGroupExampleInput">  
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-10 col-lg-7 col-md-7 div-input-um mt-3">
-                  <label for="formGroupExampleInput" class="form-label font-input"> SENHA</label>
-                  <input type="text" class="form-control" id="formGroupExampleInput">  
-                </div>
-              </div>
-              <div class="form-check login-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault">
-                  MANTENHA ME CONECTADO
-                </label>
-              </div>
-              <button type="button" class="btn btn-botao"><a class="btn-botao-um" href="dashbord.html">ENTRAR</a></button>
-              <div class="login-check"><a class="color-grey" href="esqueceusenha.html">ESQUECEU SUA SENHA?</a></div>
-              <div class="login-check-alterar"><a class="color-grey" href="alterarsenha.html">CRIAR UMA NOVA SENHA</a></div>
-              <div>
-                <div class="login-check-cadastro">AINDA NÃO TEM UMA CONTA?</div>
-                <button type="button" class="btn btn-verde"><a class="link" href="cadastro.html">CRIAR NOVA CONTA</a></button>
-              </div>
-            </div>
+            <img class="imagem-login" width="700px" height="500px" src="imagem/personagens.png"/>
         </div>
+        <div class="col-12 col-lg-5 col-md-5">
+          <p class="titulo-login">
+            BEM VINDO A <br> MS VISUAL!
+          </p>
+          <form class="row g-3">
+            <div class="col-10 col-lg-7 col-md-7 div-input-um">
+              <label for="validationServer01" class="form-label">SEU CPF</label>
+              <input type="text" class="form-control " id="validationServer01"  required>
+            </div>
+            <div class="col-10 col-lg-7 col-md-7 div-input-um">
+              <label for="validationServer01" class="form-label">SENHA</label>
+              <input type="password" class="form-control " id="validationServer01"  required>
+            </div>
+            <div class="form-check login-check" >
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                MANTENHA ME CONECTADO
+              </label>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-botao" type="submit"><a class="btn-botao-um" href="dashbord.html">ENTRAR</a></button>
+              <div class="login-check"><a class="color-grey" href="esqueceusenha.html">ESQUECEU SUA SENHA?</a></div>
+              <div class="login-check-alterar"><a class="color-grey" href="alterarsenha.html">CRIAR UMA NOVA SENHA</a></div>    
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    <script src="js/jquery.js"></script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

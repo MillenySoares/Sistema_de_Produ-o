@@ -40,43 +40,43 @@
           <p><a href="projeto.html" class="font-dash"><i class="fas fa-clock"></i> PROJETOS</a></p>
           <p><a href="calendario.html" class="font-dash"><i class="fas fa-calendar-alt"></i> CALENDÁRIO</a></p>
         </div>
-        <div class="col-9">
-          <div class="row">
+        <div class="col-12 col-lg-9 col-md-9 margin-usuario-div">
+          <div class="row display-usuario">
             <div class="col-8 margin-dash-um mt-4">
               <p class="projeto-dash-usuario">USUÁRIOS</p>
             </div>
             <div class="col-4 mt-4">
-              <button class="btn btn-dash">+ADD NOVO USUÁRIO</button>
+              <button class="btn btn-dash"><a href="cadastro.html" class="text-white text-decoration-none">+ADD NOVO USUÁRIO</a></button>
             </div>
             <div class="row mt-3 bg-usuario">
-              <div class="col-2 margin-usuario-left">
+              <div class="col-3 col-lg-2 col-md-2 margin-usuario-left">
                 NOME DE USUÁRIO
               </div> 
               <div class=" col-1">
-                <img src="imagem/seta.png"/>
+                <img class="img-usuario" src="imagem/seta.png"/>
               </div>
               <div class="col-2">
                 EMAIL
               </div>
               <div class=" col-1">
-                <img src="imagem/seta.png"/>
+                <img class="img-usuario" src="imagem/seta.png"/>
               </div>
               <div class="col-2">
                 CPF
               </div>
               <div class=" col-1">
-                <img src="imagem/seta.png"/>
+                <img class="img-usuario" src="imagem/seta.png"/>
               </div>
-              <div class="col-3">
+              <div class="col-2 col-lg-3 col-md-3">
                 AÇÃO
               </div>
             </div>
           </div>
-          <div class="row mt-3 inserir-usuario">
+          <div class="row mt-3 inserir-usuario display-usuario">
             <div class="col-2 margin-usuario-left">
               Jorge Luíz
             </div> 
-            <div class="col-3 ">
+            <div class="col-4 col-md- 3 col-lg-3 margin-usuario">
               jorgelu259@gmail.com
             </div>
             <div class="col-3 cpf-margin">
@@ -87,9 +87,76 @@
               <i class="fas fa-trash-alt"></i>
             </div>
           </div>
+          <div class="row">
+            <div class="col-8 display-mobile mt-4">
+              <p class="projeto-dash-usuario-mobile">USUÁRIOS</p>
+            </div>          
+            <div class="col-4 mt-4 btn-mobile">
+              <button class="btn btn-dash-mobile"><a href="cadastro.html" class="text-white">+ADD NOVO USUÁRIO</a></button>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-4 display-mobile bg-usuario-mobile">
+              NOME DE USUÁRIO
+            </div>
+            <div class="col-3 display-mobile usuario-mobile">
+              Jorge Luíz
+            </div>
+            <div class="col-1 display-mobile">
+                <button class="btn btn-dropdown" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  ...
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item font-dropdown" href="#">email</a></li>
+                  <li><a class="dropdown-item font-dropdown" href="#">editar</a></li>
+                  <li><a class="dropdown-item font-dropdown" href="#">remover</a></li>
+                </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
+    <nav class=" navbar navbar-light bg-light fixed-top display-responsivo-um">
+      <div class="">
+        <div class="row">
+          <div class="col-12  bg-dash">
+            <div class="row">
+              <div class="col-10">
+                <img width="150" height="50" src="imagem/logo.png"/>
+              </div>
+              <div class="col-2 margin-mobile">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+            </div>
+          </div>      
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active font-dash" href="dashbord.html" aria-current="page" href="#"><i class="fas fa-chart-pie"></i> DASHBORD</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-dash" href="usuario.html"> <i class="fas fa-user-circle"></i> USUÁRIOS</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link font-dash" href="projeto.html" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-file-alt"></i> PROJETOS
+                </a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link font-dash" href="calendario.html" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-calendar-alt"></i> CALENDÁRIO
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
 
     <!-- Optional JavaScript; choose one of the two! -->
     <!-- Option 1: Bootstrap Bundle with Popper -->

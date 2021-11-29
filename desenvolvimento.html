@@ -28,7 +28,7 @@
               <img width="150" height="50" src="imagem/logo.png"/>
             </div>
             <div class="display-responsivo-icone d-flex justify-content-center col-6">
-              <a href="#" id="btn_abrir_menu_mobile"><i class="fas fa-bars"></i></a>
+              <i class="fas fa-bars"></i>
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@
             <p><a href="projeto.html" class="font-dash"><i class="fas fa-clock"></i> PROJETOS</a></p>
             <p><a href="calendario.html" class="font-dash"><i class="fas fa-calendar-alt"></i> CALENDÁRIO</a></p>
         </div>
-        <div class="col-8 col-sm-12 col-lg-8 col-md-12  mt-3">
+        <div class="col-8 col-sm-12 col-lg-8 col-md-8  mt-3">
           <div class="row margin-dash">
             <div class="bg-img col-6 col-lg-3 col-md-6 card mb-3">
               <div class="row g-0">
@@ -85,80 +85,37 @@
                 </div>
               </div>
             </div>
-            <div class="col-8 margin-dash-um mt-4">
+            <div class="col-12 margin-dash-um mt-4">
               <p class="projeto-dash-usuario">PROJETOS</p>
             </div>
-            <div class="col-4 mt-4 margin-um">
-              <a class="text-white" href="addprojeto.html"><button class="btn btn-dash"> +ADD NOVO PROJETO</button></a>
-            </div>
-            <div class="col-10 col-md-12 bg-add-nome ">
-              <div class="row">
-                <div class="col-2 font-titulo-projeto">NOME</div>
-                <div class="col-2 col-md-1 font-titulo-projeto">ID.</div>
-                <div class="col-2  font-titulo-projeto">GERENTE</div>
-                <div class="col-1 font-titulo-projeto">INÍCIO</div>
-                <div class="col-1 font-titulo-projeto margin-termino">TÉRMINO</div>
-                <div class="col-1 font-titulo-projeto margin-status">STATUS</div>
-              </div>
-              <div class="row mt-4">
-                <div class="col-2 font-pequena">Papelaria</div>
-                <div class="col-2 col-md-1 font-pequena">256</div>
-                <div class="col-2 font-pequena">Gustavo Dias</div>
-                <div class="col-1 font-pequena">22/05/21</div>
-                <div class="col-1 font-pequena data-termino-margin">22/05/21</div>
-                <div class="col-1 font-pequena">
-                  <button class="btn btn-dash-projeto">FINALIZADO</button>
+            <div class="col-10 bg-add-nome ">
+                <div class="row">
+                  <div class="col-2 font-titulo-projeto">NOME</div>
+                  <div class="col-2 font-titulo-projeto">ID.</div>
+                  <div class="col-2 font-titulo-projeto">GERENTE</div>
+                  <div class="col-1 font-titulo-projeto">INÍCIO</div>
+                  <div class="col-1 font-titulo-projeto margin-termino">TÉRMINO</div>
+                  <div class="col-1 font-titulo-projeto margin-status">STATUS</div>
                 </div>
-                <div class="col-1 font-pequena"><i class="fas fa-pen"></i></div>
-                <div class="col-1 font-pequena"><i class="fas fa-trash-alt"></i></div>
-              </div>
+                <div class="row mt-4">
+                    <div class="col-2 font-pequena">Papelaria</div>
+                    <div class="col-2 font-pequena">256</div>
+                    <div class="col-2 font-pequena">Gustavo Dias</div>
+                    <div class="col-1 font-pequena">22/05/21</div>
+                    <div class="col-1 font-pequena data-termino-margin">22/05/21</div>
+                    <div class="col-1 font-pequena">
+                      <button class="btn btn-dash-azul-um">Em desenvolvimento</button>
+                    </div>
+                    <div class="col-1 font-pequena"><i class="fas fa-pen"></i></div>
+                    <div class="col-1 font-pequena"><i class="fas fa-trash-alt"></i></div>
+                    
+                </div>
             </div>
           </div>
         </div>
-      </div>
     </div>
 
-    <nav class="d-none navbar navbar-light bg-light fixed-top display-responsivo-um">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Offcanvas navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </nav>
+    </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

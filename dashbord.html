@@ -22,29 +22,26 @@
   <body>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-12  bg-dash">
+        <div class="col-12  bg-dash display-dash">
           <div class="row">
             <div class="col-6">
               <img width="150" height="50" src="imagem/logo.png"/>
-              <div class="display-responsivo-icone d-flex justify-content-center col-6">
-                <i class="fas fa-bars"></i>
-              </div>
             </div>
           </div>
         </div>
         <div class="col-4 mt-3 display-responsivo">
-            <p><a href="dashbord.html" class="font-dash"><i class="fas fa-clock"></i> DASHBORD</a></p>
+            <p><a href="dashbord.html" class="font-dash"><i class="fas fa-chart-pie"></i> DASHBORD</a></p>
             <p><a href="usuario.html" class="font-dash"><i class="fas fa-user-circle"></i> USUÁRIOS</a></p>
-            <p><a href="projeto.html" class="font-dash"><i class="fas fa-clock"></i> PROJETOS</a></p>
+            <p><a href="projeto.html" class="font-dash"><i class="fas fa-file-alt"></i> PROJETOS</a></p>
             <p><a href="calendario.html" class="font-dash"><i class="fas fa-calendar-alt"></i> CALENDÁRIO</a></p>
         </div>
-        <div class="col-8 col-sm-12 col-lg-8 col-md-8  mt-3">
+        <div class="col-12 col-sm-12 col-lg-8 col-md-12  mt-3">
           <div class="row margin-dash">
             <div class="col-12 dashbord">DASHBORD</div>
             <div class="bg-img col-6 col-lg-3 col-md-6 card mb-3">
               <div class="row g-0">
                 <div class="col-md-4 col-4 img-dash">
-                  <img src="imagem/criados.png" class="img-fluid rounded-start" alt="...">
+                  <a href="projeto.html"><img src="imagem/criados.png" class="img-fluid rounded-start" alt="..."></a>
                 </div>
                 <div class="col-md-8 col-8 card-dash">
                   <div class="font-number-dash">125</div>
@@ -55,7 +52,7 @@
             <div class="bg-img card col-6 col-lg-3 col-md-6 mb-3">
               <div class="row g-0">
                 <div class="col-md-4 col-4 img-dash">
-                  <img src="imagem/desenvolvimento.png" class="img-fluid rounded-start" alt="...">
+                  <a href="desenvolvimento.html"><img src="imagem/desenvolvimento.png" class="img-fluid rounded-start" alt="..."></a>
                 </div>
                 <div class="col-md-8 col-8 card-dash">
                   <div class="font-number-dash">13</div>
@@ -67,7 +64,7 @@
             <div class="bg-img col-6 col-lg-3 col-md-6 card mb-3">
               <div class="row g-0">
                 <div class="col-md-4 col-4 img-dash">
-                  <img src="imagem/finalizados.png" class="img-fluid rounded-start" alt="...">
+                  <a href="finalizados.html"><img src="imagem/finalizados.png" class="img-fluid rounded-start" alt="..."></a>
                 </div>
                 <div class="col-md-8 col-8 card-dash">
                   <div class="font-number-dash">45</div>
@@ -78,7 +75,7 @@
             <div class="bg-img col-6 col-lg-3 col-md-6 card mb-3">
               <div class="row g-0">
                 <div class="col-md-4 col-4 img-dash">
-                  <img src="imagem/cancelados.png" class="img-fluid rounded-start" alt="...">
+                  <a href="cancelados.html"><img src="imagem/cancelados.png" class="img-fluid rounded-start" alt="..."></a>
                 </div>
                 <div class="col-md-8 col-8 card-dash">
                   <div class="font-number-dash">03</div>
@@ -106,8 +103,8 @@
                 <p class="card-text font-projeto">PROJETO 02</p>
                 <p class="descriçao">Descrição do projeto</p>
                 <div class="cor-azul-dash row">
-                  <div class="col-6">Felipe Costa</div>
-                  <div class="col-6">Em Desenvolvimento</div>
+                  <div class="col-4">Felipe </div>
+                  <div class="col-8">Em Desenvolvimento</div>
                 </div>
               </div>
             </div>
@@ -126,6 +123,48 @@
         </div>
       </div>
     </div>
+
+    <nav class=" navbar navbar-light bg-light fixed-top display-responsivo-um">
+      <div class="">
+        <div class="row">
+          <div class="col-12  bg-dash">
+            <div class="row">
+              <div class="col-10">
+                <img width="150" height="50" src="imagem/logo.png"/>
+              </div>
+              <div class="col-2 margin-mobile">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+            </div>
+          </div>      
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active font-dash" href="dashbord.html" aria-current="page" href="#"><i class="fas fa-chart-pie"></i> DASHBORD</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-dash" href="usuario.html"> <i class="fas fa-user-circle"></i> USUÁRIOS</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link font-dash" href="projeto.html" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-file-alt"></i> PROJETOS
+                </a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link font-dash" href="calendario.html" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-calendar-alt"></i> CALENDÁRIO
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

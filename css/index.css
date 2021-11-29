@@ -140,8 +140,6 @@
     background-color: #f4f9fe;
     max-width: 190px;
     margin-right: 20px;
-    margin-right: 20px;
-    margin-right: 20px;
 }
 .font-img-dash{
     font-size: 9px;
@@ -175,6 +173,7 @@
     margin-left: 80px;
     font-size: 17px;
     display: none;
+    text-decoration: none;
 }
 .btn-dash{
     background-color:#42b72a ;
@@ -370,13 +369,115 @@
     font-family: 'Lato', sans-serif;
     color: #9f9ea9 !important;
 }
+.font-calendario{
+    font-family: 'Lato', sans-serif;
+    color: #505155;
+    background-color: #f4f9fe;
+    height: 45px;
+    padding-left: 40px;
+    font-size: 12px;
+    width: 874px;
+    padding-top: 15px;
+    margin-top: 10px;
+    margin-left: -150px;
+}
+.font-calendario-um{
+    font-family: 'Lato', sans-serif;
+    color: #9f9ea9 !important;
+    font-size: 12px;
+    margin-left: -112px;
+    margin-top: 10px;
+}
+.margin-data{
+    margin-left: -50px;
+}
+.margin-botao-finalizado{
+    margin-left: -115px;
 
+}
+.espacamento-hr{
+    margin-left: -49px;
+    width: 893px;
+    margin-top: -2px;
+}
+.btn-dash-verde{
+    background-color:#42b72a ;
+    font-size: 9px;
+    width: 115px;
+    height: 27px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-left: 29px;
+}
+.btn-dash-vermelho{
+    background-color:#f04840 ;
+    font-size: 9px;
+    width: 115px;
+    height: 27px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-left: 29px;
+}
+.btn-dash-azul{
+    background-color:#017eec ;
+    font-size: 9px;
+    width: 115px;
+    height: 30px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-left: 29px;
+}
+.btn-dash-azul-um{
+    background-color:#017eec ;
+    font-size: 9px;
+    width: 115px;
+    height: 30px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-left: 20px;
+    margin-top: -5px;
+
+}
+.btn-dash-vermelho-um{
+    background-color:#f04840 ;
+    font-size: 9px;
+    width: 94px;
+    height: 27px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-left: 29px;
+}
+.display-responsivo-um{
+    display: none;
+}
+.display-dash{
+    display: block;
+}
+.display-mobile{
+    display:none ;
+}
+.display-calendario{
+    display: block;
+}
+.btn-mobile{
+    display: none;
+}
 @media (max-width: 320px) {
     .imagem-login {
         margin-left: -10px;
         margin-top: 105px;
         width: 318px;
         height: 351px;
+    }
+    .card-add-projeto {
+        margin-left: -1px;
+        width: 19rem;
+    }
+    .titulo-projeto-add{
+        margin-left: 17px;
+    }
+    .titulo-cadastro{
+        margin-left: 22px;
     }
     .card-esqueceu {
         width: 19rem;
@@ -394,6 +495,7 @@
     }
     .login-check-cadastro{
         margin-left: 25px;
+        margin-bottom: 20px;
     }
     .btn-verde{
         margin-left: 25px;
@@ -411,6 +513,7 @@
     }
     .titulo-login-alterar {
         margin-left: 24px;
+        font-size: 30px;
     }
     .login-check{
         margin-left: 25px;
@@ -461,10 +564,135 @@
         margin-left: 24px;
         font-size: 30px;
     }
+    .bg-img{
+        max-width: 145px;
+    }
+    .card-dash {
+        margin-top: 8px;
+    }
+    .font-img-dash {
+        font-size: 5px;
+    }
+    .margin-dash {
+        margin-left: 14px;
+        margin-top: 80px;
+    }
+    .card-add-projeto {
+        margin-left: 9px;
+        width: 25rem;
+        margin-top: 54px;
+    }
+    .display-dash{
+        display: none;
+    }
+    .card-dashbord{
+        margin-top: 29px;
+        width: 14rem;
+        height: 160px;
+        margin-right: 13px;
+    }
+    .cor-verde-dash {
+        width: 224px;
+        padding-top: 15px;
+        font-size: 12px;
+        }
+    .cor-vermelho-dash {
+        width: 224px;
+        padding-top: 15px;
+        font-size: 12px;
+    }
+    .cor-azul-dash {
+        width: 224px;
+        padding-top: 15px;
+        font-size: 12px;
+    }
+    .font-projeto {
+        font-size: 20px;
+    }
+    .descriçao{
+        font-size: 9px;
+    }
+    .small-data {
+        font-size: 11px;
+    }
+    .display-responsivo-um{
+        display: block;
+    }
+    .margin-mobile{
+        margin-left: -29px;
+    }
+    .offcanvas-end {
+        width: 240px;
+    }
+    .bg-dash {
+        padding-left: 29px;
+    }
+    .display-usuario{
+        display: none;
+    }
+    .bg-usuario-mobile{
+        background-color: #f4f9fe;
+        height: 45px;
+        padding-left: 40px;
+        font-size: 10px;
+        width: 200px;
+        padding-top: 15px;
+        margin-left: 6px;
+    }
+    .usuario-mobile{
+        padding-top: 10px;
+        font-family: 'Lato', sans-serif;
+        color: #9f9ea9 !important;
+        font-size: 12px;
+        margin-left: -6px;
+    }
+    .projeto-dash-usuario-mobile{
+        margin-left: 8px;
+        font-size: 30px;
+        font-family: 'Lato', sans-serif;
+        color: #505155;
+        
+    }
+    .display-mobile{
+        display: block;
+    }
+    .font-dropdown{
+        font-family: 'Lato', sans-serif;
+        color: #505155;
+    }
+    .btn-dropdown{
+        background-color: #505155;
+        color: #9f9ea9;
+        margin-left: -15px;
+    }
+    .dropdown-calendario{
+        font-family: 'Lato', sans-serif;
+        color: #505155;
+    }
+    .calendario-mobile{
+        margin-top: 50px;
+        margin-left: 38px;
+    }
+    .bg-calendario-mobile {
+        background-color: #f4f9fe;
+        height: 45px;
+        font-size: 12px;
+        width: 200px;
+        padding-top: 5px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .display-calendario{
+        display: none;
+    }
+
 }
 @media (max-width: 375px) and (min-width: 321px){
     .font-dash{
         padding-left: 20px;
+    }
+    .titulo-cadastro{
+        margin-left: 26px;
     }
     .margin-dash {
         margin-left: -10px;
@@ -545,6 +773,128 @@
         width: 22rem;
         margin-top: 43px;
     }
+    .bg-img{
+        max-width: 145px;
+    }
+    .card-dash {
+        margin-top: 8px;
+    }
+    .font-img-dash {
+        font-size: 5px;
+    }
+    .margin-dash {
+        margin-left: 14px;
+        margin-top: 80px;
+    }
+    .card-add-projeto {
+        margin-left: 9px;
+        width: 25rem;
+        margin-top: 54px;
+    }
+    .display-dash{
+        display: none;
+    }
+    .card-dashbord{
+        margin-top: 29px;
+        width: 10rem;
+        height: 160px;
+        margin-right: 13px;
+    }
+    .cor-verde-dash {
+        width: 159px;
+        padding-top: 18px;
+        font-size: 8px;
+        }
+    .cor-vermelho-dash {
+        width: 159px;
+        padding-top: 18px;
+        font-size: 8px;
+        }
+    .cor-azul-dash {
+        width: 159px;
+        padding-top: 18px;
+        font-size: 8px;
+    }
+    .font-projeto {
+        font-size: 17px;
+    }
+    .descriçao{
+        font-size: 9px;
+    }
+    .small-data {
+        font-size: 11px;
+    }
+    .display-responsivo-um{
+        display: block;
+    }
+    .margin-mobile{
+        margin-left: -29px;
+    }
+    .offcanvas-end {
+        width: 240px;
+    }
+    .bg-dash {
+        padding-left: 29px;
+    }
+    .display-usuario{
+        display: none;
+    }
+    .bg-usuario-mobile{
+        background-color: #f4f9fe;
+        height: 45px;
+        padding-left: 40px;
+        font-size: 12px;
+        width: 200px;
+        padding-top: 15px;
+        margin-left: 15px;
+    }
+    .usuario-mobile{
+        padding-top: 10px;
+        font-family: 'Lato', sans-serif;
+        color: #9f9ea9 !important;
+        font-size: 14px;
+    }
+    .projeto-dash-usuario-mobile{
+        margin-left: 8px;
+        font-size: 30px;
+        font-family: 'Lato', sans-serif;
+        color: #505155;
+        
+    }
+    .display-mobile{
+        display: block;
+    }
+    .font-dropdown{
+        font-family: 'Lato', sans-serif;
+        color: #505155;
+    }
+    .btn-dropdown{
+        background-color: #505155;
+        color: #9f9ea9;
+    }
+    .titulo-projeto-add{
+        margin-left: 21px;
+    }
+    .dropdown-calendario{
+        font-family: 'Lato', sans-serif;
+        color: #505155;
+    }
+    .calendario-mobile{
+        margin-top: 50px;
+        margin-left: 65px;
+    }
+    .bg-calendario-mobile {
+        background-color: #f4f9fe;
+        height: 45px;
+        font-size: 12px;
+        width: 200px;
+        padding-top: 5px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .display-calendario{
+        display: none;
+    }
 }
 @media (max-width: 576px) and (min-width:  376px) {
     .imagem-login {
@@ -599,15 +949,8 @@
     .font-dash{
         padding-left: 20px;
     }
-    .margin-dash {
-        margin-left: -10px;
-    }
     .display-responsivo{
         display: none;
-    }
-    .display-responsivo-icone{
-        display: block;
-        margin-top: 15px;
     }
     .bg-img{
         max-width: 145px;
@@ -620,15 +963,154 @@
     }
     .margin-dash {
         margin-left: 45px;
-    }
-    .fa-bars{
-        display: block;
+        margin-top: 80px;
     }
     .card-add-projeto {
         margin-left: 9px;
         width: 25rem;
         margin-top: 54px;
     }
+    .display-dash{
+        display: none;
+    }
+    .card-dashbord{
+        margin-top: 29px;
+        width: 10rem;
+        height: 160px;
+    }
+    .cor-verde-dash {
+        width: 159px;
+        padding-top: 18px;
+        font-size: 8px;
+        }
+    .cor-vermelho-dash {
+        width: 159px;
+        padding-top: 18px;
+        font-size: 8px;
+        }
+    .cor-azul-dash {
+        width: 159px;
+        padding-top: 18px;
+        font-size: 8px;
+    }
+    .font-projeto {
+        font-size: 17px;
+    }
+    .descriçao{
+        font-size: 9px;
+    }
+    .small-data {
+        font-size: 11px;
+    }
+    .display-responsivo-um{
+        display: block;
+    }
+    .margin-mobile{
+        margin-left: -29px;
+    }
+    .offcanvas-end {
+        width: 240px;
+    }
+    .display-usuario{
+        display: none;
+    }
+    .bg-usuario-mobile{
+        background-color: #f4f9fe;
+        height: 45px;
+        padding-left: 40px;
+        font-size: 12px;
+        width: 200px;
+        padding-top: 15px;
+        margin-left: 31px;
+    }
+    .usuario-mobile{
+        padding-top: 10px;
+        font-family: 'Lato', sans-serif;
+        color: #9f9ea9 !important;
+        font-size: 14px;
+    }
+    .projeto-dash-usuario-mobile{
+        margin-left: 18px;
+        font-size: 30px;
+        font-family: 'Lato', sans-serif;
+        color: #505155;
+    
+    }
+    .display-mobile{
+        display: block;
+    }
+    .font-dropdown{
+        font-family: 'Lato', sans-serif;
+        color: #505155;
+    }
+    .btn-dropdown{
+        background-color: #505155;
+        color: #9f9ea9;
+    }
+    .font-calendario-um {
+        margin-left: 109px;
+    }
+    .font-calendario {
+        padding-left: 40px;
+        width: 619px;
+        margin-left: 67px;
+    }
+    .dashbord-calendario {
+        margin-left: 72px;
+    }
+    .btn-dash-verde {
+        margin-left: 110px;
+    }    
+    .btn-dash-azul {
+        margin-left: 110px;
+    }
+    .btn-dash-vermelho {
+        margin-left: 110px;
+    }
+    hr{
+        width: 615px;
+    }
+    .display-calendario{
+        display: none;
+    }
+    .btn-dash-mobile {
+        background-color: #42b72a;
+        font-size: 9px;
+        width: 150px;
+        height: 35px;
+        font-family: 'Lato', sans-serif;
+        color: white;
+        margin-left: -43px;
+        margin-top: 10px;
+    }
+    .login-check-alterar {
+        margin-left: 25px;
+        margin-bottom: 48px;
+    }
+    .titulo-cadastro{
+        margin-left: 20px;
+    }
+    .titulo-projeto-add{
+        margin-left: 25px;
+    }
+    .dropdown-calendario{
+        font-family: 'Lato', sans-serif;
+        color: #505155;
+    }
+    .calendario-mobile{
+        margin-top: 50px;
+        margin-left: 65px;
+    }
+    .bg-calendario-mobile {
+        background-color: #f4f9fe;
+        height: 45px;
+        text-align: center;
+        font-size: 12px;
+        width: 200px;
+        padding-top: 5px;
+        margin-left: 31px;
+    }
+
     
 }
 @media (max-width: 768px) and (min-width: 577px){
@@ -649,13 +1131,13 @@
         margin-left: 25px;
     }
     .btn-verde {
-        margin-left: 26px;
+        margin-left: 54px;
     }
     .btn-botao{
         margin-left: 25px;
     }
     .div-input {
-        margin-left: 54px;
+        margin-left: 50px;
     }
     .login-check{
         margin-left: 25px;
@@ -664,24 +1146,124 @@
         margin-left: 23px;
     }
     .margin-dash {
-        margin-left: -10px;
+        margin-left: 50px;
+        margin-top: 30px;
     }
     .btn-botao-cadastrar {
         margin-left: 26px;
     }
-    
-    .margin-dash {
-        margin-left: -10px;
-    }
+
     .fa-pen {
         margin-left: 100px;
     }
     
     .fa-trash-alt {
-        margin-left: 90px;
+        margin-left: 105px;
     }
     .logo-img-alterar {
         margin-top: -40px;
+    }
+    .display-responsivo{
+        display: none;
+    }
+    .display-responsivo-um{
+        display: block;
+    }
+    .display-dash{
+        display: none;
+    }
+    .card-dashbord{
+        margin-top: 29px;
+        width: 12rem;
+    }
+    .cor-verde-dash {
+        width: 190px;
+        font-size: 11px;
+        padding-top: 14px;
+    }
+    .cor-vermelho-dash {
+        width: 190px;
+        font-size: 11px;
+        padding-top: 14px;
+    }
+    .cor-azul-dash {
+        width: 190px;
+        padding-top: 15px;
+        font-size: 10px;
+    }
+    .font-projeto {
+        font-size: 23px;
+    }
+    .small-data {
+        font-size: 11px;
+    }
+    .bg-img {
+        margin-right: -32px;
+        margin-left: 101px;
+    }
+    .dashbord{
+        margin-bottom: 24px;
+        margin-top: 75px;
+    }
+    .margin-usuario-div{
+        margin-left: 134px;
+    }
+    .img-usuario{
+        margin-top: -3px;
+    }
+    .bg-usuario {
+        font-size: 7px;
+        padding-top: 18px;
+    }
+    .acao-margin {
+        margin-left: -88px;
+    }
+    .cpf-margin {
+        margin-left: 12px;
+    }
+    .inserir-usuario {
+        font-size: 10px;
+    }
+    .margin-botao-finalizado {
+        margin-left: -85px;
+    }
+    .margin-data {
+        margin-left: 70px;
+    }
+    .font-calendario-um {
+        margin-left: 109px;
+    }
+    .font-calendario {
+        padding-left: 40px;
+        width: 619px;
+        margin-left: 67px;
+    }
+    .dashbord-calendario {
+        margin-left: 72px;
+    }
+    .btn-dash-verde {
+        margin-left: 110px;
+    }    
+    .btn-dash-azul {
+        margin-left: 110px;
+    }
+    .btn-dash-vermelho {
+        margin-left: 110px;
+    }
+    hr{
+        width: 615px;
+    }
+    .btn-dash {
+        margin-left: 135px;
+    }
+    .projeto-dash-usuario {
+        margin-left: 56px;
+    }
+    .bg-add-nome {
+        margin-left: -19px;
+    }
+    .login-check-alterar {
+        margin-left: 25px;
     }
 }
 @media (max-width: 1200px) and (min-width: 993px) {
@@ -695,7 +1277,7 @@
         margin-top: -18px;
     }
     .btn-botao-cadastrar{
-        margin-top: -3px;
+        margin-top: 47px;
     }
     .card-dash {
         margin-top: 9px;
@@ -718,16 +1300,60 @@
         margin-left: 39px;
     }
     .fa-trash-alt {
-        margin-left: 60px;
+        margin-left: 45px
     }
-    
-    
     .margin-dash {
         margin-left: -65px;
     }
+    .card-dashbord {
+        width: 13rem;
+    }
+    .cor-azul-dash {
+        width: 207px;
+        font-size: 11px;
+    }
+    .cor-verde-dash{
+        width: 207px;
+        padding-top: 16px;
+        font-size: 12px;
+    }
+    .cor-vermelho-dash{
+        width: 207px;
+        padding-top: 16px;
+        font-size: 12px;
+    }
+    .bg-usuario {
+        font-size: 10px;
+    }
+    .cpf-margin {
+        margin-left: 1px;
+    }
+    .margin-usuario{
+        margin-left: 20px;
+    }
+    .acao-margin {
+        margin-left: -70px;
+    }
+    .font-calendario{
+        width: 663px;
+    }
+    .espacamento-hr {
+        width: 683px;
+    }
+    .fa-pen {
+        margin-left: 62px;
+    }
+    .margin-um{
+        margin-left: 78px;
+    }
 }
 @media (max-width: 1440px) and (min-width: 1200px) {
-
+    .login-check-alterar {
+        margin-left: 50px;
+    }
+    .margin-um{
+        margin-left: 78px;
+    }
 }
 @media (max-width: 2560px) and (min-width: 1441px) {
     .imagem-login {
@@ -746,11 +1372,12 @@
         height: 120px;
     }
     .btn-botao-cadastrar {
-        margin-left: 100px;
+        margin-left: 47px;
     }    
     .titulo-cadastro {
         margin-left: 100px;
     }
+    
     .titulo-login {
         font-size: 59px;
         margin-top: 352px;
@@ -758,11 +1385,11 @@
         line-height: 58px;
     }
     .login-check-cadastro{
-        margin-left: 100px;
+        margin-left: 50px;
         font-size: 16px;
     }
     .btn-verde{
-        margin-left: 100px;
+        margin-left: 50px;
         font-size: 12px;
         width: 160px;
         height: 40px;
@@ -783,5 +1410,7 @@
     .font-input{
         font-size: 16.5px;
     }
-
+    .login-check-alterar {
+        margin-left: 100px;
+    }
 }
